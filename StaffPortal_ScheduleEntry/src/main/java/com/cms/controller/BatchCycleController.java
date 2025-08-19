@@ -1,6 +1,6 @@
 package com.cms.controller;
 
-import com.cms.Cycledto.BatchCycleDTO;
+import com.cms.dto.BatchCycleDTO;
 import com.cms.services.BatchCycleService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

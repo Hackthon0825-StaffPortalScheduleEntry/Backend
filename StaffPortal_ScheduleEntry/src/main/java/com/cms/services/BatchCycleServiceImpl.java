@@ -1,6 +1,6 @@
 package com.cms.services;
 
-import com.cms.Cycledto.BatchCycleDTO;
+import com.cms.dto.BatchCycleDTO;
 import com.cms.pojos.BatchCycle;
 import com.cms.repository.BatchCycleRepository;
 

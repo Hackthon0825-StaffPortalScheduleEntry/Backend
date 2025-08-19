@@ -1,4 +1,4 @@
-package com.cms.Cycledto;
+package com.cms.dto;
 
 import lombok.*;
 import java.time.LocalDate;
