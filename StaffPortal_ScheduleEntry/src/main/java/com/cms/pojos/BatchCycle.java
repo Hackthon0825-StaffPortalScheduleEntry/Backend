@@ -1,16 +1,10 @@
 package com.cms.pojos;
 
 import lombok.*;
-
-
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-
+import jakarta.persistence.*;
 import java.time.LocalDate;
+import java.util.List;
+
 @Entity
 @Table(name = "batch_cycles")
 @Data
@@ -32,4 +26,7 @@ public class BatchCycle {
 
     @Column(name = "end_date", nullable = false)
     private LocalDate endDate;
+    
+    @OneToMany(mappedBy = "batchCycle")
+    private List<Course> courses;
 }

@@ -1,4 +1,4 @@
-package com.app.dto;
+package com.cms.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -10,11 +10,8 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class LoginRequestDto {
-	
-	
     
 	private String email;
-	
 	private String password;
 	
 

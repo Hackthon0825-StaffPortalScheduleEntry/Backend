@@ -1,4 +1,4 @@
-package com.app.service;
+package com.cms.services;
 
 public interface AuthServiceInterface {
 

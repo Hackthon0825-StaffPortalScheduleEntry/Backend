@@ -1,4 +1,4 @@
-package com.app.controller;
+package com.cms.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.app.dto.LoginRequestDto;
-import com.app.service.AuthServiceInterface;
+import com.cms.dto.LoginRequestDto;
+import com.cms.services.AuthServiceInterface;
 
 @RestController
 @RequestMapping("/auth")

@@ -1,10 +1,9 @@
-package com.app.service;
+package com.cms.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.app.entity.Staff;
-import com.app.repositories.StaffRepo;
+import com.cms.pojos.Staff;
+import com.cms.repository.StaffRepo;
 
 @Service
 public class AuthService implements AuthServiceInterface {
